@@ -32,9 +32,7 @@ then you can choose the specified dataset according to the prompts, too.
 
 ## Results
 
-Our model achieves the following performance on :
-
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+Our model achieves the following performance:
 
 | Dataset        | AUPRC  | AUROC|
 | ------------------ |---------------- | -------------- |
