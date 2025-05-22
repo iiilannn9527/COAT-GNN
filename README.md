@@ -15,16 +15,12 @@ We describe in detail how the features used for proteins are obtained in data/fe
 ## Training
 
 To train the model in the paper, run this command:
-
 ```train
-python train_1.py
-python train_2.py
+python train.py
 ```
-
-then you can choose the training of the specified dataset according to the prompts. train_1.py is used to train on the datasets PPBS and BCE, and train_2.py is used to train on the datasets GraphSet and DELPHI.
+then you can choose the training of the specified dataset according to the prompts.
 
 ![QQ截图20250522175815](https://github.com/user-attachments/assets/8446b5a7-253a-4e3b-a8ba-6d08fd8c2294)
-
 ## Evaluation
 
 To evaluate model's performence on different dataset, run:
@@ -40,8 +36,14 @@ Our model achieves the following performance on :
 
 ### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
+| Dataset        | AUPRC  | AUROC|
 | ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
+| PPBS-T_70   |     0.752        |      0.907       |
+| PPBS-T_homo   |     0.740         |      0.913       |
+| PPBS-T_topo   |    0.770         |      0.922       |
+| PPBS-T_none   |     0.645         |      0.879       |
+| GraphSet-T_60   |     0.614         |      0.879       |
+| GraphSet-T_287   |     0.593         |      0.887      |
+| DELPHI_Set   |    0.578         |      0.593       |
+| BCE   |     0.220         |      0.705       |
 
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
