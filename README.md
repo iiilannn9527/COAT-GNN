@@ -10,6 +10,8 @@ pip install -r requirements.txt
 ## Data
 You can download all the data mentioned in the paper from https://drive.google.com/drive/folders/1X2dRFDo5togPRORZkorK6ToB2no9KOK-?usp=drive_link (already anonymized) and put them in data/unity_data/.
 
+We describe in detail how the features used for proteins are obtained in data/feature_process_example/.
+
 ## Training
 
 To train the model in the paper, run this command:
