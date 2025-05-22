@@ -20,7 +20,7 @@ python train.py
 ```
 then you can choose the training of the specified dataset according to the prompts.
 
-![QQ截图20250522175815](https://github.com/user-attachments/assets/8446b5a7-253a-4e3b-a8ba-6d08fd8c2294)
+![example](https://github.com/user-attachments/assets/005c363d-29fd-483b-bef4-cc6dcdaa73f0)
 ## Evaluation
 
 To evaluate model's performence on different dataset, run:
