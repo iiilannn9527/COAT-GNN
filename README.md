@@ -25,11 +25,12 @@ then you can choose the training of the specified dataset according to the promp
 
 ## Evaluation
 
-To evaluate my model on the specified dataset, run:
+To evaluate model's performence on different dataset, run:
 
 ```eval
 python evaluation.py
 ```
+then you can choose the specified dataset according to the prompts, too.
 
 ## Results
 
