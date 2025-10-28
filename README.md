@@ -5,11 +5,11 @@
 This [appendix.pdf](./appendix.pdf) provides detailed methodological, experimental, and analytical information supporting the main paper “COAT-GNN: Cooperative Attribute Learning and Topological Optimization for Protein Binding Site Prediction.”
 It is organized as follows:
 
-### A. Graph Encoder
+**A. Graph Encoder**
 
 Describes how a protein is represented as a residue-level undirected graph and how the adjacency matrix is constructed from 3D coordinates or ESMFold-predicted structures. It also explains the implementation of Graph Attention (GAT) layers used to initialize node embeddings.
 
-### B. Amino Acid Features
+**B. Amino Acid Features**
 
 Provides the detailed composition of residue-level input features (total 66 dimensions). Subsections explain:
 
@@ -21,7 +21,7 @@ B.4: Pseudo-position embeddings based on residue spatial relations.
 
 B.5: Atom-level physicochemical features aggregated per residue.
 
-### C. Experiment Details
+**C. Experiment Details**
 
 Outlines dataset sources, preprocessing, and experimental settings:
 
@@ -29,11 +29,11 @@ C.1: Describes four benchmark datasets (PPBS, GraphSet, DELPHI_Set, BCE) and the
 
 C.2: Lists implementation details, training environment, hyperparameter tuning, and settings for all baseline models compared.
 
-### D. Statistical Analysis
+**D. Statistical Analysis**
 
 Reports the standard deviation of AUPRC/AUROC across three random seeds for all models, and presents t-test results showing the statistical significance of COAT-GNN’s improvements over the strongest baselines.
 
-### E. Computational Complexity
+**E. Computational Complexity**
 
 Analyzes the theoretical complexity of COAT-GNN compared with standard GNN and Transformer architectures, and explains that its dynamic coordinate update mechanism introduces only marginal overhead while enhancing conformational adaptability.
 
