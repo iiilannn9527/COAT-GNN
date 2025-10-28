@@ -2,7 +2,7 @@
 
 
 ## I. Appendix Overview
-This appendix.pdf provides detailed methodological, experimental, and analytical information supporting the main paper “COAT-GNN: Cooperative Attribute Learning and Topological Optimization for Protein Binding Site Prediction.”
+This [appendix.pdf](./appendix.pdf) provides detailed methodological, experimental, and analytical information supporting the main paper “COAT-GNN: Cooperative Attribute Learning and Topological Optimization for Protein Binding Site Prediction.”
 It is organized as follows:
 
 ### A. Graph Encoder
